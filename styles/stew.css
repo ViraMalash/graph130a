@@ -1,0 +1,26 @@
+@charset "UNF-8";
+/*Document*/
+
+body {
+    background-color:#31549a;
+}
+
+.stew-content {
+    background-color: #d4d4d4cc;
+    width: 700px;
+    padding: 10px;
+    margin:auto;
+}
+
+h1,h2,h3 {
+    color:rgb(136, 51, 153);
+}
+
+footer {
+    background-color: rebeccapurple;
+    color: wheat;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    clear:both;
+    padding-left: 5px;
+}
