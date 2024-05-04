@@ -1,0 +1,57 @@
+
+nav ul {
+    text-align: center;
+    list-style: none;
+    background-color: #44a5b5;
+    margin-bottom: 15px; 
+}
+
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    padding: 9px;
+    display: block;
+    width: 100px;
+    text-decoration: none;
+    background-color: #368591;
+    color: white;
+}
+
+.loki {
+    background-color: rgb(12, 117, 121);
+    width: 700px;
+    padding: 7px;
+    margin: 5px;
+    float: left;
+}
+
+.leroy {
+    display: inline-block;
+    color: rgb(199, 185, 0);
+    vertical-align: top;
+    margin-left: 5px;
+    font-family: "Jaini Purva", system-ui;
+}
+
+.clear {
+    clear: both;
+}
+
+.loe {
+    background-color:  rgb(144, 212, 214);
+    padding: 0px, 5px, 5px, 0px;
+}
+
+.loe img {
+    vertical-align: top;
+    margin: 10px, 5px, 3px, 6px;
+}
+
+h1 {
+    font-family: "Anton", sans-serif;
+
+}
+
