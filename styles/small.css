@@ -1,0 +1,182 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+    font-family: "Indie Flower", cursive;
+}
+
+header, section, aside, article, footer, figure {
+    display: block;
+}
+
+.container {
+    width: 100px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+header {
+    box-sizing: border-box;
+    color: #44a5b5;
+    padding-top: 8em;
+    padding-left: 0;
+}
+
+.container {
+    box-sizing: border-box;
+    padding-left: 8em;
+    width: 100%;
+    float: auto;
+}
+
+nav ul {
+    text-align: center;
+    list-style: none;
+    background-color: #44a5b5;
+    margin-bottom: 1em;
+    padding: 0;
+}
+
+nav li {
+    display: block;
+}
+
+nav a, nav a:link, nav a:visited {
+    margin: auto;
+    padding: .7em;
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    background-color: #44a5b5;
+    color: white;
+    border: 1px solid white;
+}
+
+nav a:hover {
+    background-color: #344e5f;
+    color: white;
+}
+
+figure {
+    margin: 0;
+}
+
+figcaption {
+    font-size: .7em;
+}
+
+ul,ol,dl {
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, p {
+    box-sizing: border-box;
+    margin: 0;
+    /*padding-right: .9em;
+    padding-left: .9em;*/
+    /*padding:0 .9em;*/
+    padding: 0 .9em;
+}
+
+footer {
+    padding: 1.5em;
+    background-color: #44a5b5;
+    color: white;
+    clear: both;
+    margin-top: 10px;
+}
+
+footer p {
+    font-size: .8em;
+}
+
+.image-left, .image-right {
+    padding: 1em;
+    width: auto;
+    float: none;
+}
+
+.sidebar {
+    float: none;
+    width: 100%;
+    background-color:rgba(255, 255, 255, 0.8);
+    color: #44a5b5;
+    padding: .8em, .5em;
+}
+
+.sidebar a {
+    color: #44a5b5;
+}
+
+
+h1, h2, h3 {
+    padding: 0;
+    padding-left: 1.4em;
+    font-family: "Indie Flower", cursive;
+}
+
+h1 {
+    font-size: 2.2em;
+}
+
+
+body {
+    background-image: url("../images/background2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    color: #344e5f;
+}
+
+.container {
+    width: 100%;
+    background-color: rgba(255, 255, 255, .8);
+}
+
+.content {
+    box-sizing: border-box;
+    padding-left: .8em;
+    width: 60%;
+    float: left;
+}
+
+.sidebar {
+    float: right;
+    width: 32%;
+    padding-bottom: .6em;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a, nav a:link, nav a:visited {
+    padding: 1em;
+    display: inline-block;
+    width: 100%;
+    border: 1px solid #44a5b5;
+}
+
+nav ul {
+    padding: 1em;
+    margin-top: .7em;
+}
+
+body {
+    background-image: url(../images/cascade_mountains-bg.jpg);
+}
+
+.container {
+    width: 60em;
+    background-color: rgba(255, 255, 255, .7);
+}
+
+.image-right {
+    float: right;
+}
+
+.image-left {
+    float: left;
+}
