@@ -1,7 +1,9 @@
 :root {
     --green:#074817;
+    --blue: #4c7335
     --white:#ffffff;
     font-family: "Raleway", sans-serif;
+    color: var(--blue);
 
 }
 
@@ -15,7 +17,7 @@ body, header, main, footer, section, article, aside {
 main, header, nav ul, footer {
     display: grid;
     grid-template-columns:auto auto auto;
-    background-color: lightgray;
+    /*background-color: lightgray;*/
 }
 
 main section {
@@ -24,9 +26,9 @@ main section {
     padding: 20px;
 }
 /*the following classes will govern*/
-.item1 {
+.item1, .iteam8 {
     grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-end: 2;
 }
 
 .item6 {
@@ -55,7 +57,7 @@ main section {
     grid-column-end: 4;
 }
 
-.item8, .item9, .item10, .hero-orcas {
+.item9, .hero-orcas {
     grid-column-start: 1;
     grid-column-end: 4;
 }
@@ -67,8 +69,14 @@ header {
     text-align: center;
 }
 
-header a, header p, nav a {
-    color: lightgrey;
+.logo1 {
+    background-color: var(--white);
+    width: auto;
+    margin: 10px auto;
+}
+
+header a, header p, nav a, label {
+    color:var(--blue);
     text-decoration: none;
 }
 
@@ -97,7 +105,7 @@ nav ul li {
 }
 
 nav ul li:hover {
-    background-color: lightgray;
+    background-color:var(--green);
     color: var(--white)
 }
 
@@ -124,3 +132,8 @@ main section {
 .item2, .item4, .itema6 {
     background-image: none;
 }
+
+footer {
+    padding: 5px;
+}
+
