@@ -4,6 +4,7 @@
         font-family: Baskerville, "Palatino linotype", Palation, "Century Schoolbook L", "Times New Roman", "serif";
         background-color: white;
     }
+  }
 
 @media only screen and (max-width: 1282px) and (max-width: 2000px) {
     body {
@@ -31,13 +32,14 @@
       background-color: green;
       color: purple;
     }
-}
+
 h1 {
     font-size: 4em;
 }
 
 p {
     font-size: 1.2em;
+}
 }
 
 @media only screen and (max-width: 485px) {
@@ -46,4 +48,3 @@ p {
       color: black;
     }
   }
-}
