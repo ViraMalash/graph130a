@@ -1,0 +1,77 @@
+.oly-wrap, .oly-row {
+    display: flex;
+}
+
+.oly-column {
+    flex: 1;
+}
+
+.oly-content {
+    flex: 2;
+}
+
+aside, .oly-sidebar {
+    flex: 3;
+}
+
+
+body {
+    background-image: url("../images/mo.jpg");
+    background-size: contain;
+    background-attachment: fixed;
+    font-family: 'Geologica', sans-serif;
+}
+
+h1 {
+    color: dark;
+    font-size: 2em;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+h2 {
+    color: dark;
+    font-size: 1.2em;
+    font-family: 'Alfa Slab One',cursive;
+}
+
+h3 {
+    font-family: 'Alfa Slab One',cursive;
+}
+
+.oly-container {
+    width: 80%;
+    margin: auto;
+    background-color: rgba(255, 255, 255, .8);
+}
+
+header, .oly-content, .oly-sidebar {
+    padding: 15px;
+}
+
+header {
+    background-color: rgba(169, 222, 253, 0.5);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    background-color: darkblue;
+    padding: 10px 0;
+    border-right: solid 1px;
+}
+
+nav a:hover {
+    background-color: lightblue;
+}
+
+nav a:first-child {
+    border-left: solid 1px;
+}
+
+@media (max-width:600px) {
+    .oly-row {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+    }
+}
