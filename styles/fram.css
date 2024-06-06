@@ -1,20 +1,23 @@
 .top-left {
     position: absolute;
-    top: 70px;
+    top: 55px;
     left: 16px;
     color: #f1d165;
     font-size: 550%;
+    font-family: "Luckiest Guy", cursive;
 }
 
 .bottom-left {
     position: absolute;
-    bottom: 500px;
+    bottom: 540px;
     left: 23px; 
     color: #f1d165;
-    font-size: 250%;
+    font-size: 270%;
+    font-family: "Indie Flower", cursive;
+    font-weight: 100;
   }
 
-  h2 {
+h2 {
     background-color: #654A91;
     margin: 0;
     color: #f1d165;
@@ -26,36 +29,79 @@ body {
 }
 
 p {
-  background-color: #bda2a7;
+  background-color: #d0c2dc;
   margin: 0;
+  width: 100%;
+  height: 363px;
+  font-family: "Indie Flower", cursive;
+  font-size: 40px;
+}
+
+.down {
+  font-family: "Indie Flower", cursive;
+  font-size: 30px;
+}
+
+.number1 {
+  font-family: "Indie Flower", cursive;
+  font-size: 37px;
+}
+
+.number2 {
+  font-family: "Indie Flower", cursive;
+  font-size: 36px;
+}
+
+.number3 {
+  font-family: "Indie Flower", cursive;
+  font-size: 36px;
+}
+
+.number4 {
+  font-family: "Indie Flower", cursive;
+  font-size: 36px;
+}
+
+.number5 {
+  font-family: "Indie Flower", cursive;
+  font-size: 36px;
+}
+
+.number6 {
+  font-family: "Indie Flower", cursive;
+  font-size: 36px;
 }
 
 footer p {
-  background-image: url(../images/MobileHeader.jpg);
-  height: 400px;
+  background-image: url(../images/DesktopHeader-01.jpg);
+  width: 1517px;
+  height: 270px;
   background-size: cover;
   background-position: bottom;
   color: #f1d165;
-
+  font-family: "Indie Flower", cursive;
 }
 
-.text {
-  font-size: 20px;
-  padding-left: 16px;
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 410%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
+
 
 .container {
-  display: flex;
-  align-items: center;
-  justify-content: center
+  align-items: flex-end;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: flex-end;
 }
 
-img {
-  max-width: 100%;
-  max-height:100%;
-}
 
 .text {
   font-size: 20px;
-  padding-left: 20px;
+  padding-left: 17px;
 }
+
+
