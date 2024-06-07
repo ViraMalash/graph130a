@@ -7,6 +7,20 @@
     font-family: "Luckiest Guy", cursive;
 }
 
+.fram {
+  font-family: "Luckiest Guy", cursive;
+  font-size: 30px;
+  color: #645357;
+  padding-left: 40px;
+}
+
+.small {
+  font-family: "Indie Flower", cursive;
+  font-size: 20px;
+  color: #645357;
+  padding-left: 50px;
+}
+
 .bottom-left {
     position: absolute;
     bottom: 540px;
@@ -21,7 +35,8 @@ h2 {
     background-color: #654A91;
     margin: 0;
     color: #f1d165;
-
+    width: 855px;
+    height: 40px;
 }
 
 body {
@@ -40,41 +55,42 @@ p {
 .down {
   font-family: "Indie Flower", cursive;
   font-size: 30px;
+  padding-left: 70px;
 }
 
 .number1 {
   font-family: "Indie Flower", cursive;
-  font-size: 37px;
+  font-size: 35px;
 }
 
 .number2 {
   font-family: "Indie Flower", cursive;
-  font-size: 36px;
+  font-size: 35px;
 }
 
 .number3 {
   font-family: "Indie Flower", cursive;
-  font-size: 36px;
+  font-size: 35px;
 }
 
 .number4 {
   font-family: "Indie Flower", cursive;
-  font-size: 36px;
+  font-size: 35px;
 }
 
 .number5 {
   font-family: "Indie Flower", cursive;
-  font-size: 36px;
+  font-size: 35px;
 }
 
 .number6 {
   font-family: "Indie Flower", cursive;
-  font-size: 36px;
+  font-size: 35px;
 }
 
 footer p {
   background-image: url(../images/DesktopHeader-01.jpg);
-  width: 1517px;
+  width: 1449px;
   height: 270px;
   background-size: cover;
   background-position: bottom;
@@ -82,14 +98,14 @@ footer p {
   font-family: "Indie Flower", cursive;
 }
 
+
 /* Centered text */
 .centered {
   position: absolute;
-  top: 410%;
+  top: 440%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
 
 .container {
   align-items: flex-end;
